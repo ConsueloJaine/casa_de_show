@@ -6,7 +6,7 @@
 :root {
     --branco-quase: #FDF3E4;
     --preto: #0A0A0A;
-    --roxo: #9B5DE5;
+    --roxo: #592b92;
     --azul: #00BBF9;
     --dourado: #FFD700;
     --rosa: #F15BB5;
@@ -40,21 +40,22 @@ max-height: 50em !important;
 }
 
 .divisao{
-    background-color: var(--rosa-escuro) !important;
+    background-color: var(--roxo) !important;
     text-align: center !important;
-    color: var(--amarelo) !important;
-    padding: 2em !important;
-
+    
+    padding: 1em !important;
 }
 
 .carousel-caption{
     width: auto;
-    background-color: #fdad348c !important;
+    background-color: #032c668c !important;
     color: var(--branco-quase) !important;
     border-radius: 1em !important;
 }
 /* Pacotes */
 .sec-pacotes {
+    padding: 2em;
+    background-color: #1E1E1E;
     margin-left: 10% !important;
     margin-right: 10% !important;
     justify-content: center !important;
@@ -76,6 +77,7 @@ max-height: 50em !important;
 }
 
 .card .btn {
+    background-color: var(--rosa);
     width: auto !important;
     /* deixa o botão do tamanho do texto */
     align-self: flex-start !important;
