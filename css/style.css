@@ -1,12 +1,12 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
 }
 
 :root {
     --branco-quase: #eed7b6;
     --preto: #0A0A0A;
-    --roxo: #592b92;
+    --roxo: #8043ca;
     --azul: #00BBF9;
     --dourado: #FFD700;
     --rosa: #F15BB5;
@@ -14,7 +14,7 @@
 }
 
 .nav-top {
-    background-color: var(--cinzaa);
+    background-color: var(--cinzaa) !important;
 }
 
 .nav-link{
