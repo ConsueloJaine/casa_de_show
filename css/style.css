@@ -4,7 +4,7 @@
 }
 
 :root {
-    --branco-quase: #FDF3E4;
+    --branco-quase: #eed7b6;
     --preto: #0A0A0A;
     --roxo: #592b92;
     --azul: #00BBF9;
@@ -42,6 +42,7 @@ max-height: 50em !important;
 .divisao{
     background-color: var(--roxo) !important;
     text-align: center !important;
+    color: var(--branco-quase) !important;
     
     padding: 1em !important;
 }
@@ -94,7 +95,7 @@ max-height: 50em !important;
 /* Cotatos */
 .titulo {
     background-color: var(--color3) !important;
-    color: var(--color6) !important;
+    color: var(--rosa) !important;
     padding: 3% !important;
 }
 
